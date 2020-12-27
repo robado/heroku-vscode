@@ -13,7 +13,6 @@ RUN apt-get update \
     ssh \
     sudo \
     vim \
-    node \
   && rm -rf /var/lib/apt/lists/*
 
 # https://wiki.debian.org/Locale#Manually
